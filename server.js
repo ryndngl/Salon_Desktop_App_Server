@@ -3,11 +3,11 @@
 // Import the necessary packages
 const express = require('express');
 const cors = require('cors');
-const mongoose = require('mongoose'); // Kung gagamit ka ng MongoDB
+const mongoose = require('mongoose'); 
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = process.env.PORT || 5000; // Maglalagay tayo ng port sa .env file
+const port = process.env.PORT || 5000; 
 
 // Middlewares
 app.use(cors());
